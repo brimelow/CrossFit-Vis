@@ -23,6 +23,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
 
         window?.tintColor = UIColor.whiteColor()
+        
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics:UIBarMetrics.Default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().translucent = true
+        UINavigationBar.appearance().barStyle = UIBarStyle.Black
+
+        let bgColor = UIColor.init(patternImage: UIImage(named: "bg")!)
+        window?.backgroundColor = bgColor
+        
         return true
     }
 

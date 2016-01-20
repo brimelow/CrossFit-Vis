@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		607027921C4F51CE004B4951 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607027911C4F51CE004B4951 /* TextField.swift */; };
+		607027961C4F5CD4004B4951 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607027951C4F5CD4004B4951 /* ResultsViewController.swift */; };
+		6070279C1C4F5DAA004B4951 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607027981C4F5DAA004B4951 /* MenuItemView.swift */; };
+		6070279D1C4F5DAA004B4951 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607027991C4F5DAA004B4951 /* MenuView.swift */; };
+		6070279E1C4F5DAA004B4951 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070279A1C4F5DAA004B4951 /* PagingMenuController.swift */; };
+		6070279F1C4F5DAA004B4951 /* PagingMenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070279B1C4F5DAA004B4951 /* PagingMenuOptions.swift */; };
+		607027A11C4F6990004B4951 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607027A01C4F6990004B4951 /* CalculatorViewController.swift */; };
+		607027A31C4F7024004B4951 /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607027A21C4F7024004B4951 /* Stepper.swift */; };
 		AB2BF3B01C346B200044E58C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BF3AF1C346B200044E58C /* AppDelegate.swift */; };
 		AB2BF3B21C346B200044E58C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BF3B11C346B200044E58C /* ViewController.swift */; };
 		AB2BF3B51C346B200044E58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2BF3B31C346B200044E58C /* Main.storyboard */; };
@@ -43,6 +51,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		607027911C4F51CE004B4951 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		607027951C4F5CD4004B4951 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		607027981C4F5DAA004B4951 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		607027991C4F5DAA004B4951 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		6070279A1C4F5DAA004B4951 /* PagingMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuController.swift; sourceTree = "<group>"; };
+		6070279B1C4F5DAA004B4951 /* PagingMenuOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuOptions.swift; sourceTree = "<group>"; };
+		607027A01C4F6990004B4951 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		607027A21C4F7024004B4951 /* Stepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
 		AB2BF3AC1C346B200044E58C /* Vis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2BF3AF1C346B200044E58C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB2BF3B11C346B200044E58C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		607027971C4F5DAA004B4951 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				607027981C4F5DAA004B4951 /* MenuItemView.swift */,
+				607027991C4F5DAA004B4951 /* MenuView.swift */,
+				6070279A1C4F5DAA004B4951 /* PagingMenuController.swift */,
+				6070279B1C4F5DAA004B4951 /* PagingMenuOptions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		AB2BF3A31C346B200044E58C = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +131,11 @@
 				AB2BF3B61C346B200044E58C /* Assets.xcassets */,
 				AB2BF3B81C346B200044E58C /* LaunchScreen.storyboard */,
 				AB2BF3BB1C346B200044E58C /* Info.plist */,
+				607027911C4F51CE004B4951 /* TextField.swift */,
+				607027951C4F5CD4004B4951 /* ResultsViewController.swift */,
+				607027971C4F5DAA004B4951 /* Classes */,
+				607027A01C4F6990004B4951 /* CalculatorViewController.swift */,
+				607027A21C4F7024004B4951 /* Stepper.swift */,
 			);
 			path = Vis;
 			sourceTree = "<group>";
@@ -177,9 +209,11 @@
 				TargetAttributes = {
 					AB2BF3AB1C346B200044E58C = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4NZ29AGQB5;
 					};
 					AB2BF3C41C346B3F0044E58C = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4NZ29AGQB5;
 					};
 				};
 			};
@@ -228,8 +262,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				607027921C4F51CE004B4951 /* TextField.swift in Sources */,
+				6070279F1C4F5DAA004B4951 /* PagingMenuOptions.swift in Sources */,
+				6070279E1C4F5DAA004B4951 /* PagingMenuController.swift in Sources */,
+				6070279D1C4F5DAA004B4951 /* MenuView.swift in Sources */,
 				AB2BF3B21C346B200044E58C /* ViewController.swift in Sources */,
 				AB2BF3B01C346B200044E58C /* AppDelegate.swift in Sources */,
+				607027961C4F5CD4004B4951 /* ResultsViewController.swift in Sources */,
+				607027A31C4F7024004B4951 /* Stepper.swift in Sources */,
+				607027A11C4F6990004B4951 /* CalculatorViewController.swift in Sources */,
+				6070279C1C4F5DAA004B4951 /* MenuItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +408,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lee brimelow (4NZ29AGQB5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -374,11 +417,11 @@
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = Vis/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leebrimelow.Vis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "efebd3eb-4d8c-4cdd-b5d9-dc64681a6420";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -386,7 +429,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lee brimelow (4NZ29AGQB5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -394,11 +438,11 @@
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = Vis/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leebrimelow.Vis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "efebd3eb-4d8c-4cdd-b5d9-dc64681a6420";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -407,12 +451,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VisExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leebrimelow.Vis.VisExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -422,12 +468,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VisExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leebrimelow.Vis.VisExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
