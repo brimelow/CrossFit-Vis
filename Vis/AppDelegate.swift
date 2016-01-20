@@ -7,6 +7,8 @@
 //
 
 import UIKit
+//import HockeySDK
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+//        BITHockeyManager.sharedHockeyManager().configureWithIdentifier("521c461016174ca2b9be14a2fbd945a2")
+//        // Do some additional configuration if needed here
+//        BITHockeyManager.sharedHockeyManager().startManager()
+//        BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
+
+        window?.tintColor = UIColor.whiteColor()
         return true
     }
 

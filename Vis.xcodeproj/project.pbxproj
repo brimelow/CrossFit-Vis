@@ -12,7 +12,35 @@
 		AB2BF3B51C346B200044E58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2BF3B31C346B200044E58C /* Main.storyboard */; };
 		AB2BF3B71C346B200044E58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2BF3B61C346B200044E58C /* Assets.xcassets */; };
 		AB2BF3BA1C346B200044E58C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2BF3B81C346B200044E58C /* LaunchScreen.storyboard */; };
+		AB2BF3C81C346B3F0044E58C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2BF3C71C346B3F0044E58C /* NotificationCenter.framework */; };
+		AB2BF3CB1C346B3F0044E58C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BF3CA1C346B3F0044E58C /* TodayViewController.swift */; };
+		AB2BF3CE1C346B3F0044E58C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2BF3CC1C346B3F0044E58C /* MainInterface.storyboard */; };
+		AB2BF3D21C346B3F0044E58C /* VisExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB2BF3C51C346B3F0044E58C /* VisExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2BF3D01C346B3F0044E58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2BF3A41C346B200044E58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2BF3C41C346B3F0044E58C;
+			remoteInfo = VisExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB2BF3D61C346B3F0044E58C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB2BF3D21C346B3F0044E58C /* VisExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB2BF3AC1C346B200044E58C /* Vis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vis.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +50,11 @@
 		AB2BF3B61C346B200044E58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2BF3B91C346B200044E58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB2BF3BB1C346B200044E58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2BF3C51C346B3F0044E58C /* VisExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VisExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2BF3C71C346B3F0044E58C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		AB2BF3CA1C346B3F0044E58C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		AB2BF3CD1C346B3F0044E58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AB2BF3CF1C346B3F0044E58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB2BF3C21C346B3F0044E58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BF3C81C346B3F0044E58C /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				AB2BF3AE1C346B200044E58C /* Vis */,
+				AB2BF3C91C346B3F0044E58C /* VisExtension */,
+				AB2BF3C61C346B3F0044E58C /* Frameworks */,
 				AB2BF3AD1C346B200044E58C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				AB2BF3AC1C346B200044E58C /* Vis.app */,
+				AB2BF3C51C346B3F0044E58C /* VisExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +108,24 @@
 			path = Vis;
 			sourceTree = "<group>";
 		};
+		AB2BF3C61C346B3F0044E58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB2BF3C71C346B3F0044E58C /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB2BF3C91C346B3F0044E58C /* VisExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AB2BF3CA1C346B3F0044E58C /* TodayViewController.swift */,
+				AB2BF3CC1C346B3F0044E58C /* MainInterface.storyboard */,
+				AB2BF3CF1C346B3F0044E58C /* Info.plist */,
+			);
+			path = VisExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +136,34 @@
 				AB2BF3A81C346B200044E58C /* Sources */,
 				AB2BF3A91C346B200044E58C /* Frameworks */,
 				AB2BF3AA1C346B200044E58C /* Resources */,
+				AB2BF3D61C346B3F0044E58C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AB2BF3D11C346B3F0044E58C /* PBXTargetDependency */,
 			);
 			name = Vis;
 			productName = Vis;
 			productReference = AB2BF3AC1C346B200044E58C /* Vis.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AB2BF3C41C346B3F0044E58C /* VisExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2BF3D31C346B3F0044E58C /* Build configuration list for PBXNativeTarget "VisExtension" */;
+			buildPhases = (
+				AB2BF3C11C346B3F0044E58C /* Sources */,
+				AB2BF3C21C346B3F0044E58C /* Frameworks */,
+				AB2BF3C31C346B3F0044E58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisExtension;
+			productName = VisExtension;
+			productReference = AB2BF3C51C346B3F0044E58C /* VisExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +176,9 @@
 				ORGANIZATIONNAME = "Lee Brimelow";
 				TargetAttributes = {
 					AB2BF3AB1C346B200044E58C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AB2BF3C41C346B3F0044E58C = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -113,6 +197,7 @@
 			projectRoot = "";
 			targets = (
 				AB2BF3AB1C346B200044E58C /* Vis */,
+				AB2BF3C41C346B3F0044E58C /* VisExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +213,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB2BF3C31C346B3F0044E58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BF3CE1C346B3F0044E58C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +233,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB2BF3C11C346B3F0044E58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BF3CB1C346B3F0044E58C /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2BF3D11C346B3F0044E58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2BF3C41C346B3F0044E58C /* VisExtension */;
+			targetProxy = AB2BF3D01C346B3F0044E58C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB2BF3B31C346B200044E58C /* Main.storyboard */ = {
@@ -157,6 +266,14 @@
 				AB2BF3B91C346B200044E58C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AB2BF3CC1C346B3F0044E58C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2BF3CD1C346B3F0044E58C /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -249,10 +366,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lee brimelow (4NZ29AGQB5)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = Vis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leebrimelow.Vis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "efebd3eb-4d8c-4cdd-b5d9-dc64681a6420";
 			};
 			name = Debug;
 		};
@@ -260,10 +386,49 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lee brimelow (4NZ29AGQB5)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = Vis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leebrimelow.Vis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "efebd3eb-4d8c-4cdd-b5d9-dc64681a6420";
+			};
+			name = Release;
+		};
+		AB2BF3D41C346B3F0044E58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = VisExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leebrimelow.Vis.VisExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB2BF3D51C346B3F0044E58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = VisExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leebrimelow.Vis.VisExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -286,6 +451,16 @@
 				AB2BF3C01C346B200044E58C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2BF3D31C346B3F0044E58C /* Build configuration list for PBXNativeTarget "VisExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2BF3D41C346B3F0044E58C /* Debug */,
+				AB2BF3D51C346B3F0044E58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
